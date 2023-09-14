@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento de Formulário</title>
+</head>
+<body>
+    <header><h1>Formulário de perguntas pós visitas. Por favor, clique no link abaixo para responder:</h1></header>
+    <nav>
+        <a id="meuLink" href="https://docs.google.com/forms/d/e/1FAIpQLScxc5hxvDV2NDBy5CVRVad15CbQwQ0h01VtkGO3m61Y_R86fg/viewform">FORMS DE <span id="sublinhado">RESPOSTA</span></a>
+    </nav>
+    <script>
+        var link = document.getElementById("meuLink");
+        link.style.backgroundColor = "#3366cc"; // Cor de fundo do link em azul
+        link.style.color = "#ffffff"; // Cor do texto do link em branco
+        link.style.padding = "10px 20px"; // Espaçamento interno para melhorar a aparência
+        link.style.textDecoration = "none"; // Remover sublinhado padrão
+    </script>
+</body>
+</html>
